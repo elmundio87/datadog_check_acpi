@@ -1,0 +1,9 @@
+init_config:
+
+
+# The Acpi check retrieves the state of the power cable (0 = unplugged
+# and 1 = plugged in)
+
+instances:
+  - metric_name: cable.online
+    metric_type: gauge
